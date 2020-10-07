@@ -13,10 +13,11 @@ public class ServletWriteToBrow extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter writer = response.getWriter();
         //获取字符串输出流
-        response.setCharacterEncoding("utf-8");
-        response.setHeader("content-type","text/html;charset=utf-8"); //告诉浏览器当前的编码，防止中文乱码
+//        response.setCharacterEncoding("utf-8");
+//        response.setHeader("content-type","text/html;charset=utf-8"); //告诉浏览器当前的编码，防止中文乱码
+        response.setContentType("text/html;charset=utf-8");
         //输出数据
-        writer.write("hi response 你好");
+        writer.write("hi response222 你好");
 
     }
 
