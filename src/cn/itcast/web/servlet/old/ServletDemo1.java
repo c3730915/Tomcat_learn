@@ -1,4 +1,4 @@
-package cn.itcast.web.servlet;
+package cn.itcast.web.servlet.old;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
