@@ -1,4 +1,4 @@
-package cn.itcast.web.servlet.day15Response;
+package cn.itcast.web.servlet.Response;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
